@@ -1,0 +1,101 @@
+body {
+  background: #482464;
+  text-align: center;
+  color: white;
+  padding-bottom: 30px;
+}
+#calculator {
+  outline: 2px solid black;
+  margin: auto;
+  width: 300px;
+  height: auto;
+  background: #92869c;
+  text-align: center;
+  box-shadow: 10px 10px black;
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+#output {
+  margin: 10px 10px 10px 10px;
+  width: 280px;
+  height: 150px;
+  outline: 2px solid #a15ed6;
+  font-family: Wallpoet;
+  font-size: 24px;
+  text-align: right;
+  background-color: #2f2a33;
+  word-wrap: break-word;
+}
+#output .previous-operand {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.5rem;
+}
+#output .current-operand {
+  color: #a15ed6;
+  font-size: 2.5rem;
+}
+#display {
+  font-weight: bolder;
+  font-size: 43px;
+}
+#button-row {
+  display: flex;
+  justify-content: center;
+}
+button:hover {
+  background-color: white;
+}
+button:active {
+  background-color: white;
+  color: black;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.number {
+  background-color: #white;
+  color: black;
+  font-size: 26px;
+  width: 50px;
+  height: 50px;
+}
+.delete {
+  font-size: 26px;
+  font-weight: bold;
+  background-color: orange;
+  width: 105px;
+  padding: 8px 0px 0px 0px;
+  height: 50px;
+}
+.clear {
+  font-size: 26px;
+  font-weight: bold;
+  background-color: #b31414;
+  width: 105px;
+  padding: 8px 0px 0px 0px;
+  height: 50px;
+}
+.operand {
+  background-color: black;
+  color: white;
+  font-size: 26px;
+  width: 50px;
+  height: 50px;
+  color: white;
+}
+.operand:hover {
+  color: black;
+}
+.equals {
+  background-color: #d1a4f5;
+  width: 215px;
+  height: 50px;
+  font-size: 26px;
+}
+a {
+  color: white;
+}
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
